@@ -25,7 +25,12 @@ A Python command-line tool that checks whether an IP address or a domain is mali
 `python main.py google.com`
 
 ## Example output
-[Paste a screenshot or your real output here]
+$ python main.py 8.8.8.8
+[*] Scanning IP Address: 8.8.8.8 ...
+
+[+] Scan Results for IP Address (8.8.8.8):
+    - Malicious: 0
+    - Harmless:  53
 
 ## Tech
 Python, Requests, python-dotenv, argparse, VirusTotal REST API
